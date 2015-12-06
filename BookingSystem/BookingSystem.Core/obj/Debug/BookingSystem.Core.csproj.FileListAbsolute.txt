@@ -1,0 +1,10 @@
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\bin\Debug\BookingSystem.Core.dll.config
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\bin\Debug\BookingSystem.Core.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\bin\Debug\BookingSystem.Core.pdb
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\bin\Debug\EntityFramework.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\bin\Debug\EntityFramework.SqlServer.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\bin\Debug\EntityFramework.xml
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\bin\Debug\EntityFramework.SqlServer.xml
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\obj\Debug\BookingSystem.Core.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\obj\Debug\BookingSystem.Core.pdb
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Core\obj\Debug\BookingSystem.Core.csprojResolveAssemblyReference.cache

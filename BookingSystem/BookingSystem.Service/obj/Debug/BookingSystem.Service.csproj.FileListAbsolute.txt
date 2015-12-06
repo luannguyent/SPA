@@ -1,0 +1,17 @@
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\obj\Debug\BookingSystem.Service.csprojResolveAssemblyReference.cache
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\BookingSystem.Service.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\BookingSystem.Service.pdb
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\BookingSystem.Core.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\BookingSystem.DataAccess.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\BookingSystem.Entities.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\EntityFramework.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\BookingSystem.Core.pdb
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\BookingSystem.DataAccess.pdb
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\BookingSystem.Entities.pdb
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\EntityFramework.xml
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\obj\Debug\BookingSystem.Service.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Service\obj\Debug\BookingSystem.Service.pdb

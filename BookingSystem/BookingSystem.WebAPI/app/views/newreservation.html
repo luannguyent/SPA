@@ -1,0 +1,68 @@
+﻿<form class="form-horizontal" role="form" name="newReservation">
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="type">Type:</label>
+        <div class="col-sm-5">
+            <select class="form-control" name="type" id="type" data-ng-model="reservation.selectedType" data-ng-change="typeChange()" required="">
+                <option ng-repeat="option in types" value="{{option.Id}}">{{option.Name}}</option>
+            </select>
+            <p ng-show="newReservation.type.$dirty && newReservation.type.$invalid" class="help-block">Type is required.</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="property">Property:</label>
+        <div class="col-sm-5">
+            <select class="form-control" id="property" name="property" data-ng-model="reservation.selectedProperty" required="">
+                <option ng-repeat="option in properties" value="{{option.Id}}">{{option.Name}}</option>
+            </select>
+            <!--<p ng-show="newReservation.property.$dirty && newReservation.property.$invalid" class="help-block">Property is required.</p>-->
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="property">Date:</label>
+        <div class="col-sm-3">
+            <input type="text" name="startDate" class="form-control" datepicker-popup="{{format}}" ng-disabled="true"
+                   ng-model="reservation.startDate" is-open="openedStartDate" min-date="minDate" max-date="'2030-06-22'"
+                   datepicker-options="dateOptions" date-disabled="disabled(date, mode)"
+                   ng-required="true" ng-change="dateChange($event)" close-text="Close" />
+        </div>
+        <div class="col-sm-1" style="margin-left: -28px;">
+            <button type="button" class="btn btn-default" ng-click="openStartDate($event)">
+                <i class="glyphicon glyphicon-calendar"></i>
+            </button>
+        </div>
+        <div class="col-sm-3">
+            <input type="text" name="endDate" ng-class="{'error': newReservation.startDate.$dirty && newReservation.startDate.$invalid }"
+                   class="form-control" datepicker-popup="{{format}}" ng-disabled="true" ng-change="dateChange($event)"
+                   ng-model="reservation.endDate" is-open="openedEndDate" min-date="endMinDate" max-date="'2030-06-22'"
+                   datepicker-options="dateOptions" date-disabled="disabled(date, mode)"
+                   ng-required="true" close-text="Close" />
+        </div>
+        <div class="col-sm-1" style="margin-left: -28px;">
+            <button type="button" class="btn btn-default" ng-click="openEndDate($event)">
+                <i class="glyphicon glyphicon-calendar"></i>
+            </button>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="time" style="margin-top: 32px">Time:</label>
+        <div class="col-sm-3">
+            <uib-timepicker ng-model="reservation.startTime" ng-change="changed()"
+                            hour-step="hstep" minute-step="mstep" show-meridian="false"></uib-timepicker>
+        </div>
+        <div class="col-sm-3">
+            <uib-timepicker ng-model="reservation.endTime" ng-change="changed()"
+                            hour-step="hstep" minute-step="mstep" show-meridian="false"></uib-timepicker>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="description">Description:</label>
+        <div class="col-sm-5">
+            <textarea class="form-control" name="description" id="description" required="" ng-model="reservation.description"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" ng-click="submitData()" class="btn btn-default">Submit</button>
+        </div>
+    </div>
+</form>

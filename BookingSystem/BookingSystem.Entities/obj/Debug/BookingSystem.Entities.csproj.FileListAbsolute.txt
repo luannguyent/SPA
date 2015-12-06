@@ -1,0 +1,9 @@
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\bin\Debug\BookingSystem.Entities.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\bin\Debug\BookingSystem.Entities.pdb
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\bin\Debug\BookingSystem.Core.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\bin\Debug\EntityFramework.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\bin\Debug\BookingSystem.Core.pdb
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\bin\Debug\EntityFramework.xml
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\obj\Debug\BookingSystem.Entities.csprojResolveAssemblyReference.cache
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\obj\Debug\BookingSystem.Entities.dll
+F:\LuanNguyen\MyProject\BookingSystem\BookingSystem.Entities\obj\Debug\BookingSystem.Entities.pdb
